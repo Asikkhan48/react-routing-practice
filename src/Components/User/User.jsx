@@ -3,7 +3,7 @@ const User = ({user}) => {
 
     const {id,name, email, address, phone, website} =user;
     return (
-        <div className="border-2 border-pink-500 mt-5 rounded-lg">
+        <div className="border-2 border-pink-500 mt-5 rounded-lg p-4">
             <h1>{name}</h1>
             <p>Email: {email}</p>
             <p>Town: {address.city}</p>
