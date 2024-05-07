@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const User = ({user}) => {
 
@@ -9,7 +10,11 @@ const User = ({user}) => {
             <p>Town: {address.city}</p>
             <p>Number: {phone}</p>
             <p>Website: {website}</p>
-
+            <Link to={`/user/${id}`}>Show Details</Link>
+            <br />
+            <Link to={`/user/${id}`}>
+                <button className="btn btn-ghost">Click Me</button>
+            </Link>
         </div>
     );
 };

@@ -1,8 +1,8 @@
 
 const Contact = () => {
     return (
-        <div>
-            <h2>Give me All Your Numbers</h2>
+        <div className="mt-20">
+            <h2 className="font-bold">Give me All Your Numbers</h2>
         </div>
     );
 };
